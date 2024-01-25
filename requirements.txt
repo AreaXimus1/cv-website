@@ -1,2 +1,3 @@
 Flask==3.0.1
 Bootstrap-Flask==2.3.3
+gunicorn==19.7.1
