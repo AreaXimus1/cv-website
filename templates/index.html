@@ -1,0 +1,140 @@
+{% include "header.html" %}
+
+<!-- Main Content-->
+<div class="container px-4 px-lg-5">
+  <div class="row gx-4 gx-lg-5 justify-content-center">
+    <div class="col-md-13 col-lg-11 col-xl-10">
+
+      <div class="container mt-5">
+        <h1>Curriculum Vitae</h1><br>
+
+        <h2>Contact Details</h2>
+        <p>Email: <a href="mailto:max.vorster@hotmail.com" target="_blank">max.vorster@hotmail.com</a></p>
+        <p>Mobile Phone: 07495800703</p>
+        <p>Address: <a href="https://maps.app.goo.gl/WYVBh7H7DEPJ2Lum8" target="_blank">45 Lower Green Road</a>, Tunbridge Wells, TN4 8TW</p>
+        <p>Website: <a href="{{url_for('home')}}">[enter website details]</a></p>
+
+        <br><br><hr><br>
+
+        <h2>Education</h2>
+        <table class="table table-hover">
+          <tbody>
+            <tr class="table-light">
+              <th scope="row">Oct 2019 - Jul 2022</th>
+              <td>University of Warwick</td>
+              <td>BSc with Hons in Economics, 2.2</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Sep 2017 - Jul 2019</th>
+              <td>The Judd School<br>A-Level</td>
+              <td>Economics A*, Politics A, Mathematics A, History A</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Sep 2012 - Sep 2017</th>
+              <td>The Judd School<br>GCSE</td>
+              <td>6 A*, A, 2B, C<br><em>(or 1-9 equivalent)</em></td>
+            </tr>
+          </tbody>
+        </table>
+        
+
+        <br><br><hr><br>
+
+        <h2>Work Experience</h2>
+        <table class="table table-hover">
+          <tbody>
+            <tr class="table-light">
+              <th scope="row">Nov 2022 - Sep 2023</th>
+              <td><strong>ASDA</strong><br>Delivery Driver</td>
+              <td>Solidified public communication skills, time-management, and organisational skills. Good knowledge of e-commerce.</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Oct 2021 - Jun 2022</th>
+              <td><strong>Warwick Economics Summit</strong> Sponsorships and Partnerships</td>
+              <td>Voluntary: established/maintained relationships with university departments, corporate sponsors, and IGOs to raise funds, and promote undergraduate opportunities </td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Sep 2021 - Nov 2022</th>
+              <td><strong>MyTutor</strong><br>A-Level Maths Tutor</td>
+              <td>Learnt teaching, communication, and effective time-management skills.</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Jun 2018 - Sep 2019</th>
+              <td><strong>The Chafford Arms</strong><br>Waitor</td>
+              <td>Taught good people skills, time management, and the ability to work under pressure.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br><br><hr><br>
+
+        <h2>Technical Skills</h2>
+
+        <table class="table table-hover">
+          <tbody>
+            <tr class="table-light">
+              <th scope="row">Programming</th>
+              <td>
+                Python <small><a href="https://www.udemy.com/certificate/UC-a8a0a7ea-9b35-4c0c-b67f-fde4eaa851f8/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" target="_blank">(certificate)</a></small>, HTML
+              </td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Word Processors</th>
+              <td>LaTeX, Word/Pages/Docs</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Data Analysis</th>
+              <td>Stata, Excel/Sheets</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Presentation</th>
+              <td>Powerpoint/Keynote/Slides</td>
+            </tr>
+          
+          </tbody>
+        </table>
+
+        <br><br><hr><br>
+
+        <h2>Examples of Work</h2>
+        <p><em>Can be viewed at either my <a href="{{url_for('academia')}}">Academic Portfolio</a> or <a href="{{url_for('python')}}">Coding Portfolio</a></em></p>
+
+        <table class="table table-hover">
+          <tbody>
+            <tr class="table-light">
+              <th scope="row">2023/24</th>
+              <td>Coding portfolio</td>
+              <td>Various projects, mainly Python</td>
+            </tr>
+
+            <tr class="table-light">
+              <th scope="row">2023</th>
+              <td>Wizz Air's Reputation</td>
+              <td>Public relations study</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">2022</th>
+              <td>Health Inequalities, Differences in Life Expectancies</td>
+              <td>Statistical Summary</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">2022</th>
+              <td>Not all bad? Terrorism's Effect on Outward FDI Stocks</td>
+              <td>Econometric Dissertation</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">2021</th>
+              <td>Bitcoin Derivatives: Exchange Traded Fortunes or Fiascos?</td>
+              <td>Article</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br><br>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include "footer.html" %}

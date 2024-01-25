@@ -1,0 +1,105 @@
+{% include "header.html" %}
+
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-13 col-lg-11 col-xl-10">
+            <div class="container mt-5">
+
+            <h1>Academic Portfolio</h1><br>
+            
+            <div class="card mb-3">
+                <h3 class="card-header">Public Relations Study</h3>
+                <div class="card-body">
+                    <a href="{{ url_for('wizz_air') }}" text-decoration="none">
+                        <h5 class="card-title">Wizz Air's Reputation</h5>
+                    </a>
+                    <h6 class="card-subtitle text-muted">A Study of Wizz Air's Public Relations</h6>
+                    
+                </div>
+                <div class="text-center">
+                    <a href="{{ url_for('wizz_air') }}">
+                        <image style="object-fit: cover;" src="{{ url_for('static', filename='images/wizz_plane.jpg') }}" height="200", width="95%">
+                    </a>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">As more of the world’s financial markets accept cryptocurrency derivatives, is it time for the UK’s Financial Conduct Authority to unban them? This week, we respond to Joshua Oliver's article about the next step in the future of finance.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{{ url_for('wizz_air') }}">Link</a></li>
+                </ul>
+            </div>
+            
+                            
+            <div class="card mb-3">
+                <h3 class="card-header">Statistical Summary</h3>
+                <div class="card-body">
+                    <a href="{{ url_for('health_inequalities') }}" text-decoration="none">
+                        <h5 class="card-title">Health Inequalities: Differences in Life Expectancies</h5>
+                    </a>    
+                </div>
+                    <div class="text-center">
+                    <a href="{{ url_for('health_inequalities') }}">
+                        <image style="object-fit: cover;" src="{{ url_for('static', filename='images/health_inequalities/area cropped.png') }}" height="200", width="95%">
+                    </a>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">This is a short two-paged paper which summmarises the differences in life expectancies across England using various datasets to come to conclusions.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{{ url_for('health_inequalities') }}">Link</a></li>
+                </ul>
+            </div>
+
+            <br>
+            
+            <div class="card mb-3">
+                <h3 class="card-header">Econometric Dissertation</h3>
+                <div class="card-body">
+                    <a href="{{ url_for('dissertation') }}" text-decoration="none">
+                        <h5 class="card-title">Not All Bad? Terrorism's Effect on Outward FDI Stocks</h5>
+                    </a>    
+                    <h6 class="card-subtitle text-muted">The Impact of Domestic and Transnational Terrorism on Outward Foreign Direct Investment</h6>
+                
+                </div>
+                <div class="card-body">
+                    <p class="card-text">This paper considers the impact of terrorism on a nation's outward FDI. Using data from the Global Terrorism Dataset, UNCTAD, the World Bank, and CEPII, I use a Poisson Pseudo Maximum Likelihood regression model to find that domestic terrorism increases the outwards FDI of all nations, while terrorism as a whole reduces outwards FDI during the Cold War for non-OECD nations. The former result is hypothesised to be caused by terrorism-induced changing relative costs of domestic-based production chains and foreign-based production chains, resulting in domestic firms shifting production overseas, reflecting the open economy channel found in previous literature. The latter result is hypothesised to be as a result of increased terrorist effectiveness during the Cold War.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{{ url_for('dissertation') }}">Link</a></li>
+                </ul>
+            </div>
+
+            <br>
+
+            <div class="card mb-3">
+                <h3 class="card-header">Article</h3>
+                <div class="card-body">
+                    <a href="{{ url_for('wes_article') }}" text-decoration="none">
+                        <h5 class="card-title">Bitcoin Derivatives: Exchange Traded Fortunes or Fiascos?</h5>
+                    </a>
+                    <h6 class="card-subtitle text-muted">Warwick Economics Summit Blog</h6>
+                    
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+                    <a href="{{ url_for('wes_article') }}">
+                        <image href="https://images.unsplash.com/photo-1623920813183-ef1b2eb4a562?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="200", width="100%">
+                    </a>
+                </svg>
+                <div class="card-body">
+                    <p class="card-text">As more of the world’s financial markets accept cryptocurrency derivatives, is it time for the UK’s Financial Conduct Authority to unban them? This week, we respond to Joshua Oliver's article about the next step in the future of finance.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{{ url_for('wes_article') }}">Link</a></li>
+                </ul>
+            </div>
+
+
+
+
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include "footer.html" %}
