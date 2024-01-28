@@ -27,14 +27,37 @@
             
                             
             <div class="card mb-3">
+                <h3 class="card-header">Python</h3>
+                <div class="card-body">
+                    <a href="https://github.com/AreaXimus1/noughts-and-crosses" target="_blank" text-decoration="none">
+                        <h5 class="card-title">Noughts and Crosses</h5>
+                    </a>    
+                </div>
+                    <div class="text-center">
+                    <a href="https://github.com/AreaXimus1/noughts-and-crosses" target="_blank" >
+                        <image style="object-fit: cover;" src="{{ url_for('static', filename='images/code_portfolio/Noughts and Crosses.png') }}" height="200", width="95%">
+                    </a>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">A Python game of Noughts and Crosses which takes place in the console. I use a numpy array to keep track of the board.<br>It has a singleplayer mode with an AI, adding a layer of complexity above a standard two-human-player game. The AI is relatively simple - if it has two in a row, it will complete it to win, otherwise it will block the player from a three in a row, otherwise it will pick a random cell - but it presents an unexpected challenge.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="https://github.com/AreaXimus1/noughts-and-crosses" target="_blank" >Link</a></li>
+                </ul>
+            </div>
+
+            <br>
+
+
+            <div class="card mb-3">
                 <h3 class="card-header">Coming soon</h3>
                 <div class="card-body">
-                    <a href="{{ url_for('health_inequalities') }}" text-decoration="none">
+                    <a href="#" text-decoration="none" target="_blank" >
                         <h5 class="card-title">Coming soon</h5>
                     </a>    
                 </div>
                     <div class="text-center">
-                    <a href="{{ url_for('health_inequalities') }}">
+                    <a href="#" target="_blank" >
                         <image style="object-fit: cover;" src="{{ url_for('static', filename='images/health_inequalities/area cropped.png') }}" height="200", width="95%">
                     </a>
                 </div>
@@ -42,14 +65,11 @@
                     <p class="card-text">Explanatory text</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="{{ url_for('health_inequalities') }}">Link</a></li>
+                    <li class="list-group-item"><a href="#" target="_blank" >Link</a></li>
                 </ul>
             </div>
 
             <br>
-
-
-
 
             
             </div>
